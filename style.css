@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600;700&display=swap);
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: hsl(233, 47%, 7%);
+}
+
+main {
+    border:none;
+    width: 1360px;
+    height: 550px;
+    position: relative;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    border-radius: 12px;
+
+}
+.details {
+    width: 500px;
+    border:none;
+    height: 75%;
+    background-color: hsl(244, 38%, 16%);
+    align-self: center;
+    margin-left: 86.25px;
+    display: flex;
+    position: relative;
+}
+.image-space {
+    width: calc(1375px/2);
+    border: none;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    background-image:url(./desk-img.jpg) ;
+    background-position: center;
+    background-size: cover; 
+    
+}
+
+    
+
+.title {
+    margin-top: 0;
+    font-size: 45px;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+.description {
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 300;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.st {
+    
+    height: 100px;
+    width: 250px;
+    
+    font-size: 32px;
+    color: hsl(0, 0%, 100%)
+}
+.nd {
+    
+    height: 100px;
+    width: 250px;
+    
+    font-size: 32px;
+    color: hsl(0, 0%, 100%)
+}
+.rd{
+    
+    height: 100px;
+    width: 250px;
+    
+    font-size: 32px;
+    color: hsl(0, 0%, 100%)
+}
+.smt{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    font-family:'inter' ;
+    font-weight: 500;
+
+}
+
+.que,.temp,.comp{
+    font-size:14px;
+    font-family: 'lexend deca';
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 300;
+    margin-top: 4px;
+    letter-spacing: 1.5px;
+}
+b{
+    color: hsl(277, 64%, 61%);
+}
